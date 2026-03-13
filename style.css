@@ -1,0 +1,386 @@
+
+/* navの顔 */
+.icon {
+    width: 80px;
+    border: 1px solid #a7c7d9;
+    border-radius: 50%;
+}
+
+.img {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.nav {
+    width: 30%;
+    list-style-type: none;
+    margin-left: auto;
+    justify-content: space-between;
+}
+
+/* ハンバーガーメニュー */
+.humberger span {
+    background-color: #a7c7d9;
+    height: 3px;
+    display: inline-block;
+    width: 50px;
+    border-radius: 20px;
+}
+
+.humberger {
+    width: 50px;
+    margin-left: auto;
+}
+
+/* top */
+
+section, main {
+    padding: 50px 0;
+}
+.box1 {
+    height: 500px;
+}
+
+h1, h2, h3, p, li {
+    font-weight: 350;
+}
+
+h2 {
+    margin: 50px 0;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+.mg0 {
+    margin-top: 0;
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.port {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.slick-img {
+    width: 450px;
+    height: auto;
+}
+
+
+.slick-img{
+    margin: 0 auto;    /*slickを読み込んだ時に、自動でslick-slideというクラスをもち、display: block;がかけられているから、img自体にmargin: 0 auto;かけた。*/
+}
+
+.opacity {
+    opacity: 0.5;
+}
+
+.relative {
+    position: relative;
+}
+
+.circle {
+    border: 1px solid #333333;
+    border-radius: 55% 45% 60% 40% ;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.arrow {
+    color: #a7c7d9;
+    font-size: 35px;
+}
+
+.top-cat {
+    width: 100px;
+    z-index: 1;
+    position: absolute;
+    top: -58px;
+    left: -30px;
+}
+
+.top-return {
+    width: 20%;
+    margin-left: auto;
+    top: 80%;
+} 
+
+/* about */
+.line {
+    height: 1px;
+    width: 100px;
+    background-color: #a7c7d9;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.title {
+    align-items: center;
+    gap: 3%;
+}
+
+.fish {
+    width: 170px;
+    position: absolute;
+    left: 550px;
+    top: 280px;
+}
+
+.border {
+    border: 1px solid #a7d7c9;
+    border-radius: 30px;
+}
+
+.ft18 {
+    font-size: 18px;
+}
+
+.pd20 {
+    padding: 20px;
+}
+
+.wd27 {
+    width: 27%;
+}
+
+/* プロフィール写真 */
+.paris {
+    width: 20%;
+}
+
+.my-img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.wd80 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.ft20 {
+    font-size: 20px;
+}
+
+.left {
+    text-align: left;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+/* skills */
+.unit {
+    width: 40%;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.underline {
+    border-bottom:  1px solid #a7d7c9;
+}
+
+/* works */
+.works-line {
+    height: 1px;
+    width: 100%;
+    background-color: #a7c7d9;
+    display: block;
+}
+
+.wd20 {
+    width: 20%;
+}
+
+.gap {
+    justify-content: center;
+    gap: 50px;
+}
+
+.shadow {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12)
+}
+
+.banner img {
+    border-radius: 30px;
+}
+
+.blue {
+    color: #a7c7d9;
+}
+
+.fit-con {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+/* 寝ている猫 */
+.sleep {
+    position: absolute;
+    width: 20%;
+    top: 100px;
+    right: 50px;
+}
+
+.none {
+    display: none;
+}
+
+
+/* contact */
+.contact {
+    background-image: url(imgs/sky.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-radius: 40% 40% 0 0;
+    padding-top: 200px;
+}
+
+.thanks {
+    width: 200px;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.wd33 {
+    width: 33%;
+}
+
+.color6 {
+    color: #666666;
+}
+
+/* メアド */
+.mail {
+    background-color: #ffffff;
+    border-radius: 70px;
+    padding: 0px 60px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.arrow-contact {
+    color: #a7c7d9;
+    font-size: 35px;
+    margin-left: auto;
+}
+
+/* footer */
+.wd50 {
+    width: 50px;
+}
+
+.ft20 {
+    font-size: 20px;
+}
+
+.ft24 {
+    font-size: 24px;
+}
+
+.center {
+    text-align: center;
+}
+
+.mail p {
+    width: fit-content;
+}
+
+.absolute {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+footer p {
+    margin-left: auto;
+}
+
+.tate {
+    align-items: center;
+}
+
+.absolute-footer {
+    position: absolute;
+    top: -60px;
+    left: 240px;
+    width: 150px;
+}
+
+.absolute-sns {
+    position: absolute;
+    top: -60px;
+    left: 70px;
+}
+
+.fukidashi {
+    background-color: #ffffff;
+    border-radius: 70px;
+    padding: 0px 10px;
+    width: 150px;
+    border: 1px solid #a7d7c9;
+}
+
+
+/* media */
+@media screen and (max-width: 768px) {
+    .none {
+        display: block;
+    }
+
+    .phone-none {
+        display: none;
+    }
+
+    .medis-wrap, .unit {
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .wd27, .phone-wd80 {
+        width: 80%;
+    }
+
+    .phone-wd20 {
+        width: 20%;
+    }
+
+    .phone-position {
+        position: absolute;
+        top: 350px;
+        left: 330px;
+    } 
+
+    .phone-img {
+        width: 100px;
+    }
+}
