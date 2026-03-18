@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -18,11 +19,11 @@
             
 
             <ul class="flex nav phone-none">
-                <li>Top</li>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Works</li>
-                <li>Contact</li>
+                <a href="index.html #top"><li>《Top》</li></a>
+                <a href="index.html #about"><li>《About》</li></a>
+                <a href="index.html #skills"><li>《Skills》</li></a>
+                <a href="index.html #works"><li>《Works》</li></a>
+                <a href="index.html #contact"><li>《Contact》</li></a>
             </ul>
 
             <div class="humberger none">
@@ -33,23 +34,23 @@
         </nav>
     </header>
 
-    <section class="box1 relative">
+    <section class="box1 relative" id="top">
 
         <div class="slick">
             <div class="my">
-                <img src="imgs/my-tate.png" alt="顔のアイコン" class="slick-img opacity">
+                <img src="imgs/hi-bear.png" alt="片手を挙げるクマ" class="slick-img opacity">
             </div>
             <div class="my">
-                <img src="imgs/25085_color.svg" alt="顔のアイコン" class="slick-img opacity">
+                <img src="imgs/back-bear.png" alt="うしろすがたのクマ" class="slick-img opacity">
             </div>
             <div class="my">
-                <img src="imgs/26544_color.svg" alt="顔のアイコン" class="slick-img opacity">
+                <img src="imgs/shine-bear.png" alt="キラキラおめめのクマ" class="slick-img opacity">
             </div>
             <div class="my">
-                <img src="imgs/25650_color.svg" alt="顔のアイコン" class="slick-img opacity">
+                <img src="imgs/angry-bear.png" alt="怒るクマ" class="slick-img opacity">
             </div>
             <div class="my">
-                <img src="imgs/24768_color.svg" alt="顔のアイコン" class="slick-img opacity">
+                <img src="imgs/eat-bear.png" alt="食べるクマ" class="slick-img opacity">
             </div>
         </div>
         
@@ -57,29 +58,30 @@
         <p class="port color6">portfolio</p>
 
         <div class="top-return relative">
-            <img src="imgs/top-cat.png" alt="トップに戻る猫" class="top-cat">
-            <div class="circle">
-                <span class="arrow">↿</span>
-            </div>
+            <img src="imgs/top-bear.png" alt="トップに戻るクマ" class="top-bear1 ">
+            <a href="index.html #top">
+                <img src="imgs/top-return.svg" alt="トップに戻る↿" class="circle">
+                <p class="arrow">↑</p>
+            </a>
         </div>
         
     </section>
 
-    <section class="about relative">
+    <section class="about relative wow animate__animated animate__fadeIn animate__slower" data-wow-delay ='0.3s' id="about"> 
 
-        <div class="flex title">
+        <div class="flex title wow animate__animated animate__fadeInLeft">
             <span class="line"></span>
             <h2>About</h2>
         </div>
 
         <div class="flex reverse wd80">
             <div class="paris">
-                <img src="imgs/Paris.jpeg" alt="自画像" class="my-img">
+                <img src="imgs/ハート絵馬copy.jpeg" alt="自画像" class="my-img">
             </div>
 
             <div class="wd80">
-                <p class="ft20">MINORI MINOWA</p>
-                <p>美濃羽　みのり</p>
+                <p class="ft20 name">MINORI MINOWA</p>
+                <p class="name">美濃羽　みのり</p>
                 <p class="color6">
                     WEB制作は未経験ですが、現在は、職業訓練に通い、<br>
                     HTML/CSSを中心に、レイアウトやレスポンシブデザイン対応の<br>
@@ -93,41 +95,41 @@
             
         </div>
 
-        <div class="phone-wd20  phone-position none">
-            <img src="imgs/fish-cat.png" alt="お魚くわえた猫" class="img">
+        <div class="phone-wd30  phone-position none">
+            <img src="imgs/fish-bear.png" alt="釣りしてるクマ" class="img">
         </div>
 
         <div class="fish phone-none">
-            <img src="imgs/fish-cat.png" alt="お魚くわえた猫" class="img">
+            <img src="imgs/fish-bear.png" alt="釣りしてるクマ" class="img">
         </div>
 
         <div class="wd80">
 
-            <p class="ft20">働くうえで大切にしていること</p>
+            <p class="ft20">仕事で大切にしている姿勢</p>
 
             <div class="flex wrap center around">
 
                 <div class="wd27">
                     <p class="ft18">コミュニケーション</p>
-                    <p class="border pd20 left">
+                    <p class="border pd20 left-skill">
                         相手の話をしっかり聞き、伝えたいことがきちんと伝わるよう意識しています。<br>
                         話しやすい雰囲気づくりを大切にしながら、認識のズレが起きないよう確認し合うことを心がけています。
+                        相手の話をしっかり聞き、認識のズレが起きないよう確認しながらコミュニケーションをとることを意識しています。
                     </p>
                 </div>
 
                 <div class="wd27">
-                    <p class="ft18">ほうれんそう</p>
-                    <p class="border pd20 left">
+                    <p class="ft18">報告・連絡・相談</p>
+                    <p class="border pd20 left-skill">
                         小さなことでもこまめに共有し、早めに報告・相談することを大切にしています。<br>
                         状況を共有することで、安心して仕事を進められるよう意識しています。
                     </p>
                 </div>
 
                 <div class="wd27">
-                    <p class="ft18">ほうれんそう</p>
-                    <p class="border pd20 left">
-                        小さなことでもこまめに共有し、早めに報告・相談することを大切にしています。<br>
-                        状況を共有することで、安心して仕事を進められるよう意識しています。
+                    <p class="ft18">継続</p>
+                    <p class="border pd20 left-skill">
+                        分からないことがあってもすぐに諦めず、調べたり試行錯誤をしながら解決するよう心がけています。
                     </p>
                 </div>
                 
@@ -136,13 +138,13 @@
 
     </section>
 
-    <section class="skills">
+    <section class="skills wow animate__animated animate__fadeIn animate__slower" data-wow-delay ='0.3s' id="skills">
 
-        <div class="flex title">
+        <div class="flex title wow animate__animated animate__fadeInLeft">
             <span class="line"></span>
             <h2>Skills</h2>
-            <div class="phone-wd20 none">
-                <img src="imgs/sleep-cat.png" alt="寝ている猫" class="img">
+            <div class="phone-wd30 none">
+                <img src="imgs/sleep-bear.png" alt="寝ているクマ" class="img">
             </div>
         </div>
 
@@ -158,6 +160,14 @@
                         <li>Webサイトの構造や見た目を作るための基本的なコーディングを学んでいます。</li>
                         <li>文字や画像の配置、シンプルなレイアウトの作成が可能です</li>
                         <li>HTML / CSSを使って、Webページの構造や見た目を形にする作業。</li>
+                        <p>カフェの情報を紹介する架空サイト。
+                            メニューや店舗情報を分かりやすく
+                            閲覧できるよう設計しました。
+
+                            工夫した点
+                            ・スマホでもレイアウトが崩れないよう設計
+                            ・余白を意識して見やすくした
+                        </p>
                     </ul>
                 </p>
             </div>
@@ -177,7 +187,7 @@
             </div>
 
             <div class="sleep phone-none">
-                <img src="imgs/sleep-cat.png" alt="寝ている猫" class="img">
+                <img src="imgs/sleep-bear.png" alt="寝ているクマ" class="img">
             </div>
 
             <div class="unit">
@@ -206,56 +216,70 @@
 
     </section>
 
-    <main class="works">
-        <div class="flex title">
+    <main class="works wow animate__animated animate__fadeIn animate__slower" data-wow-delay ='0.3s' id="works">
+        <div class="flex title wow animate__animated animate__fadeInLeft">
             <span class="line"></span>
             <h2>Works</h2>
         </div>
 
         <div class="flex wrap gap center">
 
-            <div class="wd20 phone-wd80">
+            <!-- クジラカフェ -->
+            <div class="wd30 phone-wd80">
                 <div class="banner">
-                    <img src="imgs/kujira cafe.png" alt="クジラカフェ" class="img shadow">
+                    <img src="imgs/kuzira cafe.png" alt="クジラカフェ" class="img shadow">
                 </div>
 
                 <h3>KUZIRA CAFE</h3>
                 <span class="works-line"></span>
-                <p class="mg0">訓練で使用していた参考書の例であったカフェのサイト</p>
+                <p class="mg0">
+                    参考書の例題で使用されたカフェのサイト
+                    <!-- 参考書をもとに制作し、基本的なレイアウトやレスポンシブ対応について学びました。 -->
+                </p>
 
                 <p class="color6 left">            
-                    工夫した点：<br>
-                    ・スマホでレイアウトが崩れないよう設計した<br>
+                    <span class="ft18">工夫した点</span><br>
+                    ・写真とテキストのバランスを考えて配置しました<br>
                     ・余白を意識して見やすくした<br>
-                    苦労した点：<br>
-                    ・flexの指定で中央揃えにするのに苦戦した<br>
+                    <span class="ft18">苦労した点</span><br>
+                    ・デザインを見ながらコーディングする際、余白や文字サイズなどをデザイン通りに再現することに苦戦しました。
+                    細かく調整を繰り返し、できるだけ見本に近づけるよう意識しました。
+                    ・メニューをクリックしたら他のページに飛ぶようにさせるのが大変でした。<br>
                     出典：スラスラわかる　HTML＆CSSのきほん　第3弾
+
+                <p><a href="works/kuzira cafe/index.html" target="_blank" class="url">サイトをみる</a></p>
+
                 </p>
+
             </div>
 
-            <div class="wd20 phone-wd80">
+            <!-- 自分のBlog -->
+            <div class="wd30 phone-wd80">
                 <div class="banner">
-                    <img src="imgs/kujira cafe.png" alt="クジラカフェ" class="img shadow">
+                    <img src="imgs/kuzira cafe.png" alt="クジラカフェ" class="img shadow">
                 </div>
 
                 <h3>Blog</h3>
                 <span class="works-line"></span>
-                <p class="mg0">自分のブログ</p>
+                <p class="mg0">自分の架空のブログサイト</p>
 
                 <p class="color6 left">
-                    <br>            
-                    工夫した点：
-                    ・スマホでレイアウトが崩れないよう設計した
-                    ・余白を意識して見やすくした
-                    苦労した点：
-                    ・flexの指定で中央揃えにするのに苦戦した
-                    出典：スラスラわかる　HTML＆CSSのきほん　第3弾
+                    <span class="ft18">工夫した点</span><br>
+                    ・スマホでレイアウトが崩れないよう設計した<br>
+                    ・余白を意識して見やすくした<br>
+                    <span class="ft18">苦労した点</span><br>
+                    ・flexを使った中央配置の調整に苦戦しました<br>
+                    ・写真の大きさをそろえ、並べるのに苦戦しました
+
+                <p><a href="works/kuzira cafe/index.html" target="_blank" class="url">サイトをみる</a></p>
+
                 </p>
             </div>
 
-            <div class="wd20 phone-wd80">
+            <!-- Wedding Dressのサイト -->
+            <div class="wd30 phone-wd80">
                 <div class="banner">
-                    <img src="imgs/kujira cafe.png" alt="クジラカフェ" class="img shadow">
+                    <img src="imgs/kuzira cafe.png" alt="クジラカフェ" class="img shadow">
                 </div>
 
                 <h3>Wedding Dressのサイト</h3>
@@ -263,35 +287,120 @@
                 <p class="mg0">訓練で使用していた参考書の例であったカフェのサイト</p>
 
                 <p class="color6 left">            
-                    工夫した点：
-                    ・スマホでレイアウトが崩れないよう設計した
-                    ・余白を意識して見やすくした
-                    苦労した点：
-                    ・flexの指定で中央揃えにするのに苦戦した
-                    出典：スラスラわかる　HTML＆CSSのきほん　第3弾
+                    <span class="ft18">工夫した点</span><br>
+                    ・シンプルなデザインや余白を意識しました。<br>
+                    ・スマホでレイアウトが崩れないよう設計した<br>
+        
+                    <span class="ft18">苦労した点</span><br>
+                    ・レイアウトや余白、flexの調整に苦戦しました。
+                    実際にブラウザで確認しながらCSSを細かく修正し、見やすいデザインになるよう調整しました。
+
+                <p><a href="works/kuzira cafe/index.html" target="_blank" class="url">サイトをみる</a></p>
+
                 </p>
             </div>
+
+            
+
+            <!-- 4こめ -->
+            <div class="wd30 phone-wd80 slideToggle">
+                <div class="banner">
+                    <img src="imgs/kuzira cafe.png" alt="クジラカフェ" class="img shadow">
+                </div>
+
+                <h3>Wedding Dressのサイト</h3>
+                <span class="works-line"></span>
+                <p class="mg0">訓練で使用していた参考書の例であったカフェのサイト</p>
+
+                <p class="color6 left">            
+                    <span class="ft18">工夫した点</span><br>
+                    ・シンプルなデザインや余白を意識しました。<br>
+                    ・スマホでレイアウトが崩れないよう設計した<br>
+            
+                    <span class="ft18">苦労した点</span><br>
+                    ・レイアウトや余白、flexの調整に苦戦しました。
+                    実際にブラウザで確認しながらCSSを細かく修正し、見やすいデザインになるよう調整しました。
+
+                <p><a href="works/kuzira cafe/index.html" target="_blank" class="url">サイトをみる</a></p>
+
+                </p>
+            </div>
+
+            <!-- 5こめ -->
+            <div class="wd30 phone-wd80 slideToggle">
+                <div class="banner">
+                    <img src="imgs/kuzira cafe.png" alt="クジラカフェ" class="img shadow">
+                </div>
+
+                <h3>Wedding Dressのサイト</h3>
+                <span class="works-line"></span>
+                <p class="mg0">参考書の例題で使用されたカフェのサイト</p>
+
+                <p class="color6 left">            
+                    <span class="ft18">工夫した点</span><br>
+                    ・シンプルなデザインや余白を意識しました。<br>
+                    ・スマホでレイアウトが崩れないよう設計した<br>
+            
+                    <span class="ft18">苦労した点</span><br>
+                    ・レイアウトや余白、flexの調整に苦戦しました。
+                    実際にブラウザで確認しながらCSSを細かく修正し、見やすいデザインになるよう調整しました。
+
+                <p><a href="works/kuzira cafe/index.html" target="_blank" class="url">サイトをみる</a></p>
+
+                </p>
+            </div>
+
+            <!-- 6こめ -->
+            <div class="wd30 phone-wd80 slideToggle">
+                <div class="banner">
+                    <img src="imgs/kuzira cafe.png" alt="クジラカフェ" class="img shadow">
+                </div>
+
+                <h3>Wedding Dressのサイト</h3>
+                <span class="works-line"></span>
+                <p class="mg0">訓練で使用していた参考書の例であったカフェのサイト</p>
+
+                <p class="color6 left">            
+                    <span class="ft18">工夫した点</span><br>
+                    ・シンプルなデザインや余白を意識しました。<br>
+                    ・スマホでレイアウトが崩れないよう設計した<br>
+            
+                    <span class="ft18">苦労した点</span><br>
+                    ・レイアウトや余白、flexの調整に苦戦しました。
+                    実際にブラウザで確認しながらCSSを細かく修正し、見やすいデザインになるよう調整しました。
+
+                <p><a href="works/kuzira cafe/index.html" target="_blank" class="url">サイトをみる</a></p>
+
+                </p>
+            </div>
+
         </div>
 
-        <div class="flex fit-con">
-            <div class="circle">
-                <span class="arrow">⇀</span>
+        
+
+        <div class="flex tate jc-more">
+
+            <div class="relative flex">
+                <img src="imgs/top-return.svg" alt="トップに戻る↿" class="circle2">
+                <p class="arrow2">→</p>
             </div>
+            
             <p class="blue">もっと見る</p>
+            
         </div>
 
     </main>
 
-    <section class="contact">
+    <section class="contact wow animate__animated animate__fadeIn animate__slower" data-wow-delay ='0.3s' id="contact">
         
         <div class="flex between">
-            <div class="flex title wd33">
+            <div class="flex title wd33 wow animate__animated animate__fadeInLeft">
                 <span class="line"></span>
                 <h2>Contact</h2>
             </div>
 
             <div class="wd33 center">
-                <img src="imgs/top-cat.png" alt="お礼してる猫" class="img thanks">
+                <img src="imgs/sit-bear.png" alt="お座りしてるクマ" class="img thanks">
             </div>
 
             <div class="wd33"></div>
@@ -301,31 +410,43 @@
         <p class="center color6">「お問い合わせ」から「応援メッセージ」まで、下記よりお気軽にご連絡ください。</p>
         
         <div class="center">
-            <div class="mail flex tate">
-                <p class="ft20">
-                    mhmmt50930@gmail.com
-                </p>
-                <p class="arrow-contact ">
-                    ⇀
-                </p>
+            
+            <div class="mail flex tate btn">
+                    <p class="ft20">
+                        mhmmt50930@gmail.com
+                    </p>
+                    <p class="arrow-contact ">
+                        ⇀
+                    </p>
+            </div>
+        
+        </div>
+
+        <!-- お問い合わせフォーム -->
+        <div class="modal">
+            <div class="modal-content">
+                <p>お問い合わせフォーム</p>
+                <input type="text" placeholder="名前">
+                <textarea placeholder="内容"></textarea>
+                <button class="close">閉じる</button>
             </div>
         </div>
+
+</div>
 
     </section>
 
     <footer class="flex">
         
         <div class="wd50 flex relative">
-            <img src="imgs/Instagram.png" alt="インスタグラム" class="img opacity">
-            <img src="imgs/X.png" alt="X" class="img opacity">
+            <img src="imgs/Instagram.png" alt="インスタグラム" class="img">
+            <img src="imgs/X.png" alt="X" class="img">
         </div>
         <div class="relative">
             <div class="fukidashi absolute-sns wd">
-                <p class="ft20 color6">
-                    SNSもあります!
-                </p>
+                <img src="imgs/SNS.png" alt="SNSもあります" class="img">
             </div>
-            <img src="imgs/top-cat.png" alt="猫" class="img absolute-footer phone-img">
+            <img src="imgs/up-bear.png" alt="両手を挙げるクマ" class="img absolute-footer phone-img">
         </div>
         <p>&copy; 2026 MINORI MINOWA</p>
 
@@ -334,6 +455,7 @@
     <!-- ここからscript -->
     <script src="jquery-2.1.3.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>

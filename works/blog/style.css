@@ -1,0 +1,302 @@
+
+body {
+    margin: 0;
+    line-height: 1.7;
+}
+
+/* 文字 */
+.bold {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.ft22 {
+    font-size: 22px;
+}
+
+.ft14 {
+    font-size: 14px;
+}
+
+/* header ピンクの部分 */
+.flex {
+    display: flex;
+}
+
+.link {
+    width: 20px;
+    max-width: 20px;
+}
+
+.pink {
+    background-color: rgb(216, 169, 183);
+    padding: 10px;
+}
+
+.right {
+    justify-content: right;
+}
+
+header {
+    border-bottom: 1px solid rgb(216, 169, 183);
+}
+
+/* headerのnavの部分 */
+ul {
+    list-style-type: none;
+    margin-left: auto;
+}
+
+/* maiのtop */
+.top {
+    width: 100%;
+    max-width: 100%;
+}
+
+/* main*/
+.white {
+    color: #ffffff;
+}
+
+.mg0 {
+    margin: 0 auto;
+}
+
+.hitokoto {
+    width: 70%;
+}
+
+.profile-wrap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.speech-bubble {
+  position: relative;
+  background: #f6eaea;
+  padding: 20px 24px;
+  border-radius: 16px;
+  max-width: 600px;
+  line-height: 1.7;
+}
+
+.speech-bubble::after {
+  content: "";
+  position: absolute;
+  right: -12px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-width: 10px 0 10px 12px;
+  border-style: solid;
+  border-color: transparent transparent transparent #f6eaea;
+}
+
+.wd50 {
+    width: 50%;
+}
+
+.wd80 {
+    width: 80%;
+}
+
+.pd20 {
+    padding: 20px;
+}
+
+.text {
+    text-align: center;
+}
+
+.mg {
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+.no {
+    margin: 0;
+}
+
+.block {
+    display: block;
+}
+
+.icon {
+    width: 20%;
+    max-width: 20%;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.border {
+    border: 1px solid rgb(216, 169, 183);
+}
+
+/* menu */
+h2 {
+    font-size: 30px;
+}
+.menu {
+    background-image: url(imgs/background2.jpeg);
+    padding: 20px;
+}
+
+.kiji {
+    width: 20%;
+    max-width: 20%;
+}
+
+.sp {
+    justify-content: center;
+}
+
+.gap {
+    gap: 2px;
+}
+
+.pink16 {
+    color: rgb(216, 169, 183);
+}
+
+.box {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.tabi {
+    justify-content: center;
+}
+/* new post */
+.newpost {
+    background-color: rgb(234, 216, 216);
+}
+
+.news {
+    width: 30%;
+    padding: 15px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gazou {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.ichiran {
+    background-color: #ffffff;
+    color: #454545;
+    padding: 10px 100px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+/* 旅行カテゴリ */
+.boxes {
+    border: 1px solid rgb(216, 169, 183);
+    display: flex;
+}
+
+.box2+.box2 {
+    border-left: 1px solid rgb(216, 169, 183);
+}
+
+.ume {
+    width: 40%;
+    max-width: 40%;
+}
+
+.mj32 {
+    margin-bottom: 32px;
+}
+
+/* About&Plofile */
+.plofile {
+    background-image: url(imgs/background2.jpeg);
+}
+
+.my {
+    width: 30%;
+    border-radius: 50%;
+}
+
+.apple {
+    width: 2%;
+    max-width: 2%;
+}
+
+.about {
+    background-color: rgb(216, 169, 183);
+    color: #ffffff;
+    position: absolute;
+    top: 330px;
+    left: 150px;
+}
+
+.mail {
+    width: 5%;
+    max-width: 5%;
+}
+
+/* contact */
+.cat {
+    width: 10%;
+    max-width: 10%;
+    border-radius: 50%;
+}
+
+.wd70 {
+    width: 70%;
+    margin: 30px auto;
+}
+
+.relative {
+    position: relative;
+}
+
+.contact {
+    padding: 30px;
+}
+
+/* footer */
+footer {
+    background-color: rgb(234, 216, 216);
+    padding: 20px 40px;
+}
+
+.heart {
+    width: 1%;
+}
+
+.box-ft {
+    width: 50%;
+}
+
+.line {
+    border-bottom: 1px solid #454545;
+}
+
+.ft10 {
+    font-size: 10px;
+}
+
+.sitemap {
+    margin: 0;
+}
+
+/* media */
+@media screen and (max-width: 768px) {
+    .pink.flex.right {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+}
