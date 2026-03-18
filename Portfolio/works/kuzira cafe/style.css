@@ -1,0 +1,146 @@
+
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.main2 {
+    color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.hero.main2{
+    background-image: url(imgs/home-hero.jpg);
+    padding: 287px 0;
+}
+.main, .main2 {
+    font-size: 50px;
+}
+.main, .main3 {
+    color: #5100b5;
+}
+.main3 {
+    font-weight: bold;
+    font-size: 30px;
+    border-bottom: 2px solid #5100b5;
+}
+
+.gazou1 {
+    width: 30%;
+}
+
+.kuzira {
+    text-align: center;
+}
+
+.gazou2 {
+    margin-top: 30px;
+    width: 95%;
+}
+
+.main4 {
+    background-color: #5100b5;
+    color: #ffffff;
+    margin: 20px 0 0 0;
+    padding: 70px 70px 70px 70px;
+    text-align: center;
+}
+
+.gazou3 {
+    text-align: center;
+}
+
+.top, ul, table {
+    line-height: 1.7;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+}
+
+.menu {
+    padding: 0;
+    list-style-type: none;
+    /* 箇条書きの点を消す; */
+    display: flex;
+    /* 子要素を横並びにする */
+    justify-content: space-between;
+    /* 並び方の指定 */
+    /* space-between →均等間隔 */
+}
+
+.menu a:link {
+    color: #5100b5;
+}
+
+.menu a:visited {
+    color: #5100b5;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-image: url(imgs/stripe.png);
+    background-repeat: repeat-x;
+    padding-top: 40px;
+}
+
+th, td {
+    border: 2px solid #dbdbdb;
+    padding: 20px;
+    border-collapse: collapse;
+}
+
+th {
+    width: 112px;
+    text-align: left;
+    vertical-align: top;
+}
+
+/* menu.html */
+.items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+/* contact.html */
+form {
+    margin: 0 auto;
+    max-width: 640px;
+}
+
+input[type="text"], textarea {
+    padding: 6px;
+    width: 100%;
+    font-size: 1rem;
+}
+
+textarea {
+    height: 140px;
+}
+
+.submit {
+    text-align: center;
+}
+
+input[type="submit"] {
+    color: #ffffff;
+    background-color: #253958;
+    border: none;
+    font-size: 1rem;
+    padding: 20px;
+    width: 200px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせ |Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="he">
+<header class="header">
+    <p class="main"><span class="title">KUZIRA</span> CAFE</p>
+    <nav>
+    <ul class="menu">
+        <li>ホーム</li>
+        <li><a href="index.html#news">お知らせ</a></li>
+        <li><a href="index.html#shop">店舗情報</a></li>
+        <li>アクセス</li>
+        <li>メニュー</li>
+        <li>お問い合わせ</li>
+    </ul>
+    </nav>
+</header>
+<p class="main2 hero">お問い合わせ</p>
+<main>
+    <form action="result.html">
+        <p>
+            <label for="kind">お問い合わせの種類</label><br>
+            <select name="kind" id="kind">
+                <option value="1">ご予約</option>
+                <option value="2">イベントに関するお問い合わせ</option>
+                <option value="3">その他</option>
+            </select>
+        </p>
+        <p>
+            はじめてのご来店ですか？<br>
+            <label><input type="radio" name="first" value="yes">はい</label><br>
+            <label><input type="radio" name="first" value="no">いいえ</label><br>
+        </p>
+
+        <p>
+            当カフェをお知りになったきっかけは？<br>
+            <input type="checkbox" name="how" value="friend">知り合いの紹介で<br>
+            <input type="checkbox" name="how" value="magazine">SNS、WEBサイト、雑誌などを見て
+        </p>
+
+        <p>
+            <label for="subject">お問い合わせの件名</label></p>
+        <input type="text" name="subject" placeholder="タイトル" id="subject">
+
+        <p>
+            <label for="message">お問い合わせの具体的な内容</label><br>
+            <textarea name="message" id="message"></textarea>
+        </p>
+
+        <p class="submit">
+            <input type="submit" value="送信">
+        </p>
+    </form>
+</main>
+
+<footer>
+    <p class="main4">&copy;KUZIRA CAFE</p>
+</footer>
+</body>
+</html>

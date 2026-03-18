@@ -1,0 +1,495 @@
+
+/* navの顔 */
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.icon {
+    width: 80px;
+    border: 1px solid #a7c7d9;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.img {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.nav {
+    width: 30%;
+    list-style-type: none;
+    margin-left: auto;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #282828;
+}
+
+/* ハンバーガーメニュー */
+.humberger span {
+    background-color: #a7c7d9;
+    height: 3px;
+    display: inline-block;
+    width: 50px;
+    border-radius: 20px;
+}
+
+.humberger {
+    width: 50px;
+    margin-left: auto;
+}
+
+/* top */
+
+section, main {
+    padding: 50px 0;
+}
+.box1 {
+    height: 500px;
+}
+
+h1, h2, h3, p, li {
+    font-weight: 350px;
+    color: #282828;
+}
+
+h2 {
+    margin: 50px 0;
+}
+
+h3 {
+    margin-bottom: 0;
+}
+
+.mg0 {
+    margin-top: 0;
+}
+
+h1 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.port {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+.slick-img {
+    width: 300px;
+    height: auto;
+}
+
+
+.slick-img{
+    margin: 0 auto;    /*slickを読み込んだ時に、自動でslick-slideというクラスをもち、display: block;がかけられているから、img自体にmargin: 0 auto;かけた。*/
+}
+
+.opacity {
+    opacity: 0.5;
+}
+
+.relative {
+    position: relative;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    position: absolute;
+}
+
+.arrow {
+    position: absolute;
+    color: #282828;
+    font-size: 30px;
+    z-index: 3;
+    left: 35px;
+}
+
+.top-bear {
+    width: 100px;
+    z-index: 1;
+    position: absolute;
+    top: -50px;
+    left: -30px;
+    transition: 1s;
+}
+
+.top-bear1 {
+    width: 100px;
+    z-index: 1;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+.top-return {
+    width: 10%;
+    position: fixed;
+    right: 0;
+    z-index: 10;
+} 
+
+/* about */
+.line {
+    height: 1px;
+    width: 100px;
+    background-color: #a7c7d9;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.title {
+    align-items: center;
+    gap: 3%;
+}
+
+.fish {
+    width: 170px;
+    position: absolute;
+    left: 570px;
+    top: 380px;
+}
+
+.border {
+    border: 1px solid #a7d7c9;
+    border-radius: 100px 100px 30px 30px;
+}
+
+.ft18 {
+    font-size: 18px;
+}
+
+.pd20 {
+    padding: 50px;
+}
+
+.wd27 {
+    width: 27%;
+}
+
+.name:hover {
+    color: #a7c7d9;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* プロフィール写真 */
+.paris {
+    width: 40%;
+}
+
+.my-img {
+    border-radius: 50%;
+    width: 100%;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.wd80 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.ft20 {
+    font-size: 20px;
+}
+
+.left, .left-skill {
+    text-align: left;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+
+/* skills */
+.unit {
+    width: 40%;
+    margin: 20px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.underline {
+    border-bottom:  1px solid #a7d7c9;
+}
+
+/* works */
+.works-line {
+    height: 1px;
+    width: 100%;
+    background-color: #a7c7d9;
+    display: block;
+}
+
+.wd30 {
+    width: 30%;
+}
+
+.gap {
+    justify-content: center;
+    gap: 50px;
+}
+
+.shadow {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12)
+}
+
+.banner img {
+    border-radius: 30px;
+}
+
+.blue {
+    color: #a7c7d9;
+}
+
+.fit-con {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.circle2 {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.arrow2 {
+    position: absolute;
+    color: #282828;
+    font-size: 30px;
+    z-index: 3;
+    left: 35px;
+}
+
+.jc, .jc-more {
+    justify-content: center;
+}
+
+.url {
+    color: #a7c7d9;
+}
+
+.url:visited {
+    color: #a7c7d9;
+}
+
+/* 寝ているクマ */
+.sleep {
+    position: absolute;
+    width: 20%;
+    top: 250px;
+    right: 50px;
+}
+
+.none {
+    display: none;
+}
+
+
+/* contact */
+.contact {
+    background-image: url(imgs/sky.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-radius: 40% 40% 0 0;
+    padding-top: 200px;
+}
+
+.thanks {
+    width: 200px;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.wd33 {
+    width: 33%;
+}
+
+.color6 {
+    color: #666666;
+}
+
+/* メアド */
+/* .mail {
+    background-color: #ffffff;
+    border-radius: 70px;
+    padding: 0px 60px;
+    width: 40%;
+    margin: 0 auto;
+} */
+
+.btn {
+    border-radius: 70px;
+    background: #fcfcfc;
+    box-shadow:  20px 20px 60px #d6d6d6,
+                -20px -20px 60px #ffffff;
+    padding: 0px 60px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.btn:active {
+    box-shadow:  5px 5px 15px #d6d6d6,
+                -5px -5px 15px #ffffff;
+}
+
+.arrow-contact {
+    color: #a7c7d9;
+    font-size: 35px;
+    margin-left: auto;
+}
+
+/* お問い合わせフォーム */
+.modal{
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+}
+
+.modal-content{
+    width: 50%;
+    margin: 100px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+
+    box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+}
+
+/* footer */
+.wd50 {
+    width: 50px;
+}
+
+.ft20 {
+    font-size: 20px;
+}
+
+.ft24 {
+    font-size: 24px;
+}
+
+.center {
+    text-align: center;
+}
+
+.mail p {
+    width: fit-content;
+}
+
+.absolute {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+footer p {
+    margin-left: auto;
+}
+
+.tate {
+    align-items: center;
+}
+
+.absolute-footer {
+    position: absolute;
+    top: -60px;
+    left: 240px;
+    width: 150px;
+}
+
+.absolute-sns {
+    position: absolute;
+    top: -50px;
+    left: 100px;
+}
+
+.fukidashi {
+    padding: 0px 10px;
+    width: 150px;
+}
+
+
+.about, .skills, .works, .contact {
+    transition: 2s;
+}
+
+/* media */
+@media screen and (max-width: 768px) {
+    .none {
+        display: block;
+    }
+
+    .phone-none {
+        display: none;
+    }
+
+    .medis-wrap, .unit {
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    .wd27, .phone-wd80 {
+        width: 80%;
+    }
+
+    .phone-wd20 {
+        width: 20%;
+    }
+
+    .phone-position {
+        position: absolute;
+        top: 350px;
+        left: 330px;
+    } 
+
+    .phone-img {
+        width: 100px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .top-return {
+        margin-left: auto;
+    }
+}
