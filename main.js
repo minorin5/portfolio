@@ -1,4 +1,6 @@
 $(function() {
+    $('.drawer').drawer();
+
     $('.slick').slick( {
         autoplay: true,
         autoplaySpeed: 1000,
@@ -58,12 +60,26 @@ $(function() {
     "mouseenter": function() {
       //activeクラス付与
       cursor.addClass("active");
-      stalker.addClass("active");
     },
     "mouseleave": function() {
       cursor.removeClass("active");
-      stalker.removeClass("active");
       
+    }
+  });
+
+  $('.jc-more').click(function() {
+    if($('.blue').html() == 'もっと見る') {
+        $('.blue').html('閉じる');
+    } else {
+        $('.blue').html('もっと見る');
+    }
+  });
+
+  $('.jc-more').click(function() {
+    if($('.arrow2').html() == '↓') {
+        $('.arrow2').html('↑');
+    } else {
+        $('.arrow2').html('↓');
     }
   });
     

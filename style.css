@@ -96,18 +96,6 @@ a li:hover::before {
 
 
 /* ハンバーガーメニュー */
-.humberger span {
-    background-color: #a7c7d9;
-    height: 3px;
-    display: inline-block;
-    width: 50px;
-    border-radius: 20px;
-}
-
-.humberger {
-    width: 50px;
-    margin-left: auto;
-}
 
 /* top */
 
@@ -608,5 +596,9 @@ footer p {
 
     .top-return {
         margin-left: auto;
+    }
+
+    #cursor {
+        display: none;
     }
 }
