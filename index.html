@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css" />
+    <link rel="stylesheet" href="dist/css/lightbox.min.css">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="drawer drawer--right">
     <div id="cursor"></div>
     <header>
-        <nav class="flex">
+        <nav class="flex-top">
             
             <div class="icon">
                 <img src="imgs/my-tate.png" alt="顔のアイコン" class="img">
@@ -36,8 +37,12 @@
 
         <nav class="drawer-nav" role="navigation">
             <ul class="drawer-menu">
-                <li><a class="drawer-menu-item" href="#">メニュー1</a></li>
-                <li><a class="drawer-menu-item" href="#">メニュー2</a></li>
+                <li><a href="index.html#top" class="drawer-menu-item">《Top》</a></li>
+                <li><a href="index.html#about" class="drawer-menu-item">《About》</a></li>
+                <li><a href="index.html#skills" class="drawer-menu-item">《Skills》</a></li>
+                <li><a href="index.html#works" class="drawer-menu-item">《Works》</a></li>
+                <li><a href="index.html#contact" class="drawer-menu-item">《Contact》</a></li>
+
             </ul>
         </nav>
     
@@ -69,7 +74,7 @@
         <h1>MINORI MINOWA</h1>
         <p class="port color6">portfolio</p>
 
-        <div class="top-return relative">
+        <div class="top-return relative big">
             <img src="imgs/top-bear.png" alt="トップに戻るクマ" class="top-bear1 ">
             <a href="index.html #top">
                 <img src="imgs/top-return.svg" alt="トップに戻る↿" class="circle">
@@ -107,7 +112,7 @@
             
         </div>
 
-        <div class="phone-wd30  phone-position none">
+        <div class="phone-wd20  phone-position none">
             <img src="imgs/fish-bear.png" alt="釣りしてるクマ" class="img">
         </div>
 
@@ -155,7 +160,7 @@
         <div class="flex title wow animate__animated animate__fadeInLeft">
             <span class="line"></span>
             <h2>Skills</h2>
-            <div class="phone-wd30 none">
+            <div class="phone-wd20 none">
                 <img src="imgs/sleep-bear.png" alt="寝ているクマ" class="img">
             </div>
         </div>
@@ -172,14 +177,6 @@
                         <li>Webサイトの構造や見た目を作るための基本的なコーディングを学んでいます。</li>
                         <li>文字や画像の配置、シンプルなレイアウトの作成が可能です</li>
                         <li>HTML / CSSを使って、Webページの構造や見た目を形にする作業。</li>
-                        <p>カフェの情報を紹介する架空サイト。
-                            メニューや店舗情報を分かりやすく
-                            閲覧できるよう設計しました。
-
-                            工夫した点
-                            ・スマホでもレイアウトが崩れないよう設計
-                            ・余白を意識して見やすくした
-                        </p>
                     </ul>
                 </p>
             </div>
@@ -239,77 +236,91 @@
             <!-- クジラカフェ -->
             <div class="wd30 phone-wd80">
                 <div class="banner">
-                    <img src="imgs/kuzira cafe.png" alt="クジラカフェ" class="img shadow">
+                    <a href="imgs/kuzira cafe.png"  data-lightbox="gallery">
+                        <img src="imgs/kuzira cafe.png" alt="クジラカフェ" class="img shadow">
+                    </a>
                 </div>
 
-                <h3>KUZIRA CAFE</h3>
-                <span class="works-line"></span>
-                <p class="mg0">
-                    参考書の例題で使用されたカフェのサイト
-                    <!-- 参考書をもとに制作し、基本的なレイアウトやレスポンシブ対応について学びました。 -->
-                </p>
+                <div class="detail">
+                    <h3>KUZIRA CAFE</h3>
+                    <span class="works-line"></span>
+                    <p class="mg0">
+                        参考書の例題で使用されたカフェのサイト
+                        <!-- 参考書をもとに制作し、基本的なレイアウトやレスポンシブ対応について学びました。 -->
+                    </p>
+                
 
-                <p class="color6 left">            
-                    <span class="ft18">工夫した点</span><br>
-                    ・写真とテキストのバランスを考えて配置しました<br>
-                    ・余白を意識して見やすくした<br>
-                    <span class="ft18">苦労した点</span><br>
-                    ・デザインを見ながらコーディングする際、余白や文字サイズなどをデザイン通りに再現することに苦戦しました。
-                    細かく調整を繰り返し、できるだけ見本に近づけるよう意識しました。
-                    ・メニューをクリックしたら他のページに飛ぶようにさせるのが大変でした。<br>
-                    出典：スラスラわかる　HTML＆CSSのきほん　第3弾
+                    <p class="color6 left">   
 
-                <p><a href="works/kuzira cafe/index.html" target="_blank" class="url">サイトをみる</a></p>
+                        <span class="ft18">工夫した点</span><br>
+                        ・写真とテキストのバランスを考えて配置しました<br>
+                        ・余白を意識して見やすくした<br>
+                        <span class="ft18">苦労した点</span><br>
+                        ・デザインを見ながらコーディングする際、余白や文字サイズなどをデザイン通りに再現することに苦戦しました。
+                        細かく調整を繰り返し、できるだけ見本に近づけるよう意識しました。
+                        ・メニューをクリックしたら他のページに飛ぶようにさせるのが大変でした。<br>
+                        出典：スラスラわかる　HTML＆CSSのきほん　第3弾
 
-                </p>
+                        <p><a href="works/kuzira cafe/index.html" target="_blank" class="url">サイトをみる</a></p>
+
+                    </p>
+                </div>
 
             </div>
 
             <!-- 自分のBlog -->
             <div class="wd30 phone-wd80">
                 <div class="banner">
-                    <img src="imgs/kuzira cafe.png" alt="クジラカフェ" class="img shadow">
+                    <a href="imgs/kuzira cafe.png"  data-lightbox="gallery">
+                        <img src="imgs/kuzira cafe.png" alt="クジラカフェ" class="img shadow">
+                    </a>
                 </div>
 
-                <h3>Blog</h3>
-                <span class="works-line"></span>
-                <p class="mg0">自分の架空のブログサイト</p>
+                <div class="detail">
+                    <h3>Blog</h3>
+                    <span class="works-line"></span>
+                    <p class="mg0">自分の架空のブログサイト</p>
 
-                <p class="color6 left">
-                    <span class="ft18">工夫した点</span><br>
-                    ・スマホでレイアウトが崩れないよう設計した<br>
-                    ・余白を意識して見やすくした<br>
-                    <span class="ft18">苦労した点</span><br>
-                    ・flexを使った中央配置の調整に苦戦しました<br>
-                    ・写真の大きさをそろえ、並べるのに苦戦しました
+                    <p class="color6 left">
+                        <span class="ft18">工夫した点</span><br>
+                        ・スマホでレイアウトが崩れないよう設計した<br>
+                        ・余白を意識して見やすくした<br>
+                        <span class="ft18">苦労した点</span><br>
+                        ・flexを使った中央配置の調整に苦戦しました<br>
+                        ・写真の大きさをそろえ、並べるのに苦戦しました
 
-                <p><a href="works/kuzira cafe/index.html" target="_blank" class="url">サイトをみる</a></p>
+                        <p><a href="works/kuzira cafe/index.html" target="_blank" class="url">サイトをみる</a></p>
 
-                </p>
+                    </p>
+                </div>
             </div>
 
             <!-- Wedding Dressのサイト -->
             <div class="wd30 phone-wd80">
                 <div class="banner">
-                    <img src="imgs/kuzira cafe.png" alt="クジラカフェ" class="img shadow">
+                    <a href="imgs/kuzira cafe.png"  data-lightbox="gallery">
+                        <img src="imgs/kuzira cafe.png" alt="クジラカフェ" class="img shadow">
+                    </a>
                 </div>
 
-                <h3>Wedding Dressのサイト</h3>
-                <span class="works-line"></span>
-                <p class="mg0">訓練で使用していた参考書の例であったカフェのサイト</p>
+                <div class="detail">
+                    <h3>Wedding Dressのサイト</h3>
+                    <span class="works-line"></span>
+                    <p class="mg0">架空のウェディングドレスのサイト</p>
 
-                <p class="color6 left">            
-                    <span class="ft18">工夫した点</span><br>
-                    ・シンプルなデザインや余白を意識しました。<br>
-                    ・スマホでレイアウトが崩れないよう設計した<br>
-        
-                    <span class="ft18">苦労した点</span><br>
-                    ・レイアウトや余白、flexの調整に苦戦しました。
-                    実際にブラウザで確認しながらCSSを細かく修正し、見やすいデザインになるよう調整しました。
+                    <p class="color6 left">            
+                        <span class="ft18">工夫した点</span><br>
+                        ・シンプルなデザインや余白を意識しました。<br>
+                        ・スマホでレイアウトが崩れないよう設計した<br>
+            
+                        <span class="ft18">苦労した点</span><br>
+                        ・レイアウトや余白、flexの調整に苦戦しました。
+                        実際にブラウザで確認しながらCSSを細かく修正し、見やすいデザインになるよう調整しました。
 
-                <p><a href="works/kuzira cafe/index.html" target="_blank" class="url">サイトをみる</a></p>
+                        <p><a href="works/kuzira cafe/index.html" target="_blank" class="url">サイトをみる</a></p>
 
-                </p>
+                    </p>
+                </div>
             </div>
 
             
@@ -317,73 +328,85 @@
             <!-- 4こめ -->
             <div class="wd30 phone-wd80 slideToggle">
                 <div class="banner">
-                    <img src="imgs/kuzira cafe.png" alt="クジラカフェ" class="img shadow">
+                    <a href="imgs/kuzira cafe.png"  data-lightbox="gallery">
+                        <img src="imgs/kuzira cafe.png" alt="クジラカフェ" class="img shadow">
+                    </a>
                 </div>
 
-                <h3>Wedding Dressのサイト</h3>
-                <span class="works-line"></span>
-                <p class="mg0">訓練で使用していた参考書の例であったカフェのサイト</p>
+                <div class="detail">
+                    <h3>Wedding Dressのサイト</h3>
+                    <span class="works-line"></span>
+                    <p class="mg0">訓練で使用していた参考書の例であったカフェのサイト</p>
 
-                <p class="color6 left">            
-                    <span class="ft18">工夫した点</span><br>
-                    ・シンプルなデザインや余白を意識しました。<br>
-                    ・スマホでレイアウトが崩れないよう設計した<br>
-            
-                    <span class="ft18">苦労した点</span><br>
-                    ・レイアウトや余白、flexの調整に苦戦しました。
-                    実際にブラウザで確認しながらCSSを細かく修正し、見やすいデザインになるよう調整しました。
+                    <p class="color6 left">            
+                        <span class="ft18">工夫した点</span><br>
+                        ・シンプルなデザインや余白を意識しました。<br>
+                        ・スマホでレイアウトが崩れないよう設計した<br>
+                
+                        <span class="ft18">苦労した点</span><br>
+                        ・レイアウトや余白、flexの調整に苦戦しました。
+                        実際にブラウザで確認しながらCSSを細かく修正し、見やすいデザインになるよう調整しました。
 
-                <p><a href="works/kuzira cafe/index.html" target="_blank" class="url">サイトをみる</a></p>
+                        <p><a href="works/kuzira cafe/index.html" target="_blank" class="url">サイトをみる</a></p>
 
-                </p>
+                    </p>
+                </div>
             </div>
 
             <!-- 5こめ -->
             <div class="wd30 phone-wd80 slideToggle">
                 <div class="banner">
-                    <img src="imgs/kuzira cafe.png" alt="クジラカフェ" class="img shadow">
+                    <a href="imgs/kuzira cafe.png"  data-lightbox="gallery">
+                        <img src="imgs/kuzira cafe.png" alt="クジラカフェ" class="img shadow">
+                    </a>
                 </div>
 
-                <h3>Wedding Dressのサイト</h3>
-                <span class="works-line"></span>
-                <p class="mg0">参考書の例題で使用されたカフェのサイト</p>
+                <div class="detail">
+                    <h3>Wedding Dressのサイト</h3>
+                    <span class="works-line"></span>
+                    <p class="mg0">参考書の例題で使用されたカフェのサイト</p>
 
-                <p class="color6 left">            
-                    <span class="ft18">工夫した点</span><br>
-                    ・シンプルなデザインや余白を意識しました。<br>
-                    ・スマホでレイアウトが崩れないよう設計した<br>
-            
-                    <span class="ft18">苦労した点</span><br>
-                    ・レイアウトや余白、flexの調整に苦戦しました。
-                    実際にブラウザで確認しながらCSSを細かく修正し、見やすいデザインになるよう調整しました。
+                    <p class="color6 left">            
+                        <span class="ft18">工夫した点</span><br>
+                        ・シンプルなデザインや余白を意識しました。<br>
+                        ・スマホでレイアウトが崩れないよう設計した<br>
+                
+                        <span class="ft18">苦労した点</span><br>
+                        ・レイアウトや余白、flexの調整に苦戦しました。
+                        実際にブラウザで確認しながらCSSを細かく修正し、見やすいデザインになるよう調整しました。
 
-                <p><a href="works/kuzira cafe/index.html" target="_blank" class="url">サイトをみる</a></p>
+                        <p><a href="works/kuzira cafe/index.html" target="_blank" class="url">サイトをみる</a></p>
 
-                </p>
+                    </p>
+                </div>
             </div>
 
             <!-- 6こめ -->
             <div class="wd30 phone-wd80 slideToggle">
                 <div class="banner">
-                    <img src="imgs/kuzira cafe.png" alt="クジラカフェ" class="img shadow">
+                    <a href="imgs/kuzira cafe.png"  data-lightbox="gallery">
+                        <img src="imgs/kuzira cafe.png" alt="クジラカフェ" class="img shadow">
+                    </a>
                 </div>
 
-                <h3>Wedding Dressのサイト</h3>
-                <span class="works-line"></span>
-                <p class="mg0">訓練で使用していた参考書の例であったカフェのサイト</p>
+                <div class="detail">
+                    <h3>Wedding Dressのサイト</h3>
+                    <span class="works-line"></span>
+                    <p class="mg0">訓練で使用していた参考書の例であったカフェのサイト</p>
 
-                <p class="color6 left">            
-                    <span class="ft18">工夫した点</span><br>
-                    ・シンプルなデザインや余白を意識しました。<br>
-                    ・スマホでレイアウトが崩れないよう設計した<br>
-            
-                    <span class="ft18">苦労した点</span><br>
-                    ・レイアウトや余白、flexの調整に苦戦しました。
-                    実際にブラウザで確認しながらCSSを細かく修正し、見やすいデザインになるよう調整しました。
+                    <p class="color6 left">            
+                        <span class="ft18">工夫した点</span><br>
+                        ・シンプルなデザインや余白を意識しました。<br>
+                        ・スマホでレイアウトが崩れないよう設計した<br>
+                
+                        <span class="ft18">苦労した点</span><br>
+                        ・レイアウトや余白、flexの調整に苦戦しました。
+                        実際にブラウザで確認しながらCSSを細かく修正し、見やすいデザインになるよう調整しました。
 
-                <p class="site"><a href="works/kuzira cafe/index.html" target="_blank" class="url">サイトをみる</a></p>
+                        <p class="site"><a href="works/kuzira cafe/index.html" target="_blank" class="url">サイトをみる</a></p>
 
-                </p>
+                    </p>
+                </div>
             </div>
 
         </div>
@@ -470,6 +493,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+    <script src="dist/js/lightbox.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>

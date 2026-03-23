@@ -42,7 +42,7 @@ header {
     width: 100%;
 }
 
-.flex {
+.flex, .flex-top {
     display: flex;
 }
 
@@ -416,7 +416,7 @@ h1 {
 .sleep {
     position: absolute;
     width: 20%;
-    top: 250px;
+    top: 180px;
     right: 50px;
 }
 
@@ -598,7 +598,94 @@ footer p {
         margin-left: auto;
     }
 
-    #cursor {
+    /* #cursor {
         display: none;
+    } */
+}
+
+@media screen and (max-width: 390px) {
+    .ft20 {
+        font-size: 18px;
+    
+    }
+
+    .flex {
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 18px;
+    }
+    
+    .slick-img {
+        width: 280px;
+    }
+
+    .port {
+        top: 65%;
+    }
+
+    .icon {
+        width: 60px;
+    }
+    
+    .drawer-nav {
+        width: 8rem;
+    }
+
+    .top-return {
+        right: 20px;
+    }
+
+    .circle {
+        width: 60px;
+    }
+
+    .arrow {
+        left: 15px;
+    }
+
+    .top-bear {
+        top: -14px;
+        left: -21px;
+        width: 66px;;
+    }
+
+    .top-bear1 {
+        width: 66px;
+        top: 13px;
+        left: -5px;
+    }
+
+    .phone-position {
+        top: 500px;
+        left: 245px;
+    }
+
+    .thanks {
+        width: 150px;
+    }
+    
+    .absolute-sns {
+        width: 100px;
+        top: -52px;
+        left: -10px;
+    }
+
+    .phone-img {
+        width: 86px;
+    }
+
+    .wd150 {
+        width: 70px;
+    }
+
+    .absolute-footer {
+        top: -29px;
+        left: 89px;
+    }
+
+    footer p {
+        font-size: 10px;
     }
 }

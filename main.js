@@ -12,7 +12,7 @@ $(function() {
     }).init();
 
     $('.left').slideToggle();
-    $('.wd30').click(function() {
+    $('.detail').click(function() {
         $(this).find('.color6.left').slideToggle();
     });
 
@@ -55,6 +55,9 @@ $(function() {
     });
   });
 
+  $('.link').hover(function() {
+  console.log('反応してる');
+});
   //aタグホバー
   $("a").on({
     "mouseenter": function() {
