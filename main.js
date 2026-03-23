@@ -59,7 +59,7 @@ $(function() {
   console.log('反応してる');
 });
   //aタグホバー
-  $("a").on({
+  $("a, .big").on({
     "mouseenter": function() {
       //activeクラス付与
       cursor.addClass("active");
